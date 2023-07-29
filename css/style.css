@@ -1,0 +1,41 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+	background: #191919;
+	font-family: DM Sans, sans-serif;
+	color: #fff;
+}
+
+.container {
+	max-width: 1330px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+	padding: 40px 0;
+}
+
+.container-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav__list {
+	display: flex;
+	align-items: center;
+}
+
+.nav__item:not(:last-child) {
+	margin-right: 40px;
+}
+
+.nav__link {
+	font-size: 18px;
+	line-height: 27px;
+	color: #fff;
+}
