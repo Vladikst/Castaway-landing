@@ -1,0 +1,21 @@
+.btn {
+	width: 178px;
+	height: 51px;
+	font-size: 17px;
+	font-weight: 400;
+	border-radius: 6px;
+	background: #118da8;
+}
+
+.episodes-card__btn {
+	width: 208px;
+	font-size: 18px;
+}
+
+.subscribe__btn {
+	width: 87px;
+	height: 48px;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 15px;
+	font-weight: 700;
+}

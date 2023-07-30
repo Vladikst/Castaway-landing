@@ -1,5 +1,6 @@
 @import './reset.css';
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Poppins:wght@300;400;500;600&display=swap');
+@import './buttons.css';
 
 body {
 	background: #191919;
@@ -23,6 +24,10 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.logo {
+	cursor: pointer;
 }
 
 .nav__list {
@@ -144,4 +149,237 @@ body {
 
 .social__link--5 {
 	background-image: url('../icons/Overcast.svg');
+}
+
+/* Episodes */
+
+.episodes {
+	padding: 100px 0 160px;
+}
+
+.episodes__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 64px;
+}
+
+.episodes__title {
+	font-size: 64px;
+	font-weight: 400;
+	line-height: 79.2px;
+	letter-spacing: 2.88px;
+}
+
+.episodes__item:not(:last-child) {
+	margin-bottom: 60px;
+}
+
+.episodes-card {
+	display: flex;
+	padding: 40px;
+	background: #000;
+	border-radius: 32px;
+}
+
+.episodes-card__image {
+	width: 389px;
+	margin-right: 50px;
+}
+
+.episodes-card__content {
+	margin-top: 8px;
+}
+
+.episodes-card__category {
+	display: inline-block;
+	border-radius: 6px;
+	background: #191919;
+	padding: 0px 16px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 48px;
+}
+
+.episodes-card__number {
+	color: #118da8;
+	font-size: 17px;
+	font-weight: 400;
+	margin-bottom: 18px;
+}
+
+.episodes-card__title {
+	margin: 0;
+	margin-bottom: 28px;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 70px;
+	letter-spacing: 5.56px;
+}
+
+.episodes-card__descr {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 33px;
+	margin-bottom: 18px;
+}
+
+/* Person */
+
+.person {
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 0;
+}
+
+.container-person {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 60px;
+}
+
+.person__arrow {
+	width: 112px;
+	height: 112px;
+	border-radius: 400px;
+	background: #118da8;
+	margin-bottom: 20px;
+}
+.person__content {
+	width: 50%;
+}
+.person__meet {
+	color: #118da8;
+	font-size: 18px;
+	font-weight: 400;
+}
+.person__title {
+	color: #fff;
+	font-size: 65px;
+	font-weight: 400;
+	letter-spacing: 2.88px;
+	margin-bottom: 28px;
+}
+.person__upper-descr {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 33px;
+	margin-bottom: 33px;
+}
+.person__descr {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 33px;
+}
+.person__img {
+	border-radius: 12px;
+	width: 50%;
+}
+
+/* Subscribe */
+
+.subscribe {
+	padding: 100px 0;
+}
+
+.container-subscribe {
+	display: flex;
+	justify-content: space-between;
+	align-items: unset;
+	border-radius: 32px;
+	background: #000;
+	padding: 60px 60px 70px 60px;
+}
+
+.subscribe__content {
+	position: relative;
+	width: 36%;
+}
+
+.subscribe__news {
+	color: #118da8;
+	font-size: 18px;
+	font-weight: 400;
+}
+.subscribe__title {
+	color: #fff;
+	font-size: 72px;
+	font-weight: 400;
+	letter-spacing: 2.88px;
+	line-height: 79.2px;
+}
+
+.subscribe-decorate {
+	position: absolute;
+	bottom: -97px;
+	left: -95px;
+}
+
+.subscribe__form {
+	width: 522px;
+	display: flex;
+	flex-direction: column;
+}
+
+.subscribe__name {
+	padding: 26px 0 27px 19px;
+	border-radius: 6px;
+	border: 1px solid #191919;
+	background: #191919;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 24px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.subscribe__email {
+	padding: 26px 0 27px 19px;
+	border-radius: 6px;
+	border: 1px solid #191919;
+	background: #191919;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 24px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+/* Reviews */
+
+.reviews {
+	padding: 100px 0;
+}
+
+.container-reviews {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 16px;
+}
+
+.reviews__card {
+	width: 423px;
+	border-radius: 32px;
+	background: #000;
+	padding: 54px 60px 51px 50px;
+}
+
+.reviews__card img {
+	margin-bottom: 21px;
+}
+
+.reviews__title {
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 43.2px;
+	margin-bottom: 19px;
+}
+
+.reviews__descr {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 28.8px;
 }
