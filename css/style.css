@@ -185,6 +185,7 @@ body {
 .episodes-card__image {
 	width: 389px;
 	margin-right: 50px;
+	object-fit: contain;
 }
 
 .episodes-card__content {
@@ -288,6 +289,7 @@ body {
 }
 
 .container-subscribe {
+	position: relative;
 	display: flex;
 	justify-content: space-between;
 	align-items: unset;
@@ -297,7 +299,6 @@ body {
 }
 
 .subscribe__content {
-	position: relative;
 	width: 36%;
 }
 
@@ -316,8 +317,8 @@ body {
 
 .subscribe-decorate {
 	position: absolute;
-	bottom: -97px;
-	left: -95px;
+	bottom: -34px;
+	left: -37px;
 }
 
 .subscribe__form {
